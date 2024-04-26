@@ -1,9 +1,11 @@
-import { useState } from "react";
+import QuoteBox from "./components/QuoteBox";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <></>;
+  return (
+    <>
+      <QuoteBox></QuoteBox>
+    </>
+  );
 }
 
 export default App;
